@@ -83,15 +83,10 @@ mybatis的逆向工程（用于生成vo、mapper文件）
         </javaClientGenerator>
 
         <!-- 指定数据库表 可以写多个table标签-->
-        <table tableName="oms_order" domainObjectName="Order"
-               enableCountByExample="false" enableUpdateByExample="false" enableDeleteByExample="false"
-               enableSelectByExample="false" selectByExampleQueryId="false" >
-            <columnOverride column="id" javaType="Integer" />
+        <table tableName="oms_order" domainObjectName="Order">
         </table>
-        <table tableName="oms_order_item" domainObjectName="OrderItem"
-               enableCountByExample="false" enableUpdateByExample="false" enableDeleteByExample="false"
-               enableSelectByExample="false" selectByExampleQueryId="false" >
-            <columnOverride column="id" javaType="Integer" />
+
+        <table tableName="oms_order_item" domainObjectName="OrderItem">
         </table>
 
     </context>
