@@ -15,7 +15,7 @@
            password="123">
         </jdbcConnection> -->
         <jdbcConnection driverClass="com.mysql.cj.jdbc.Driver"
-                        connectionURL="jdbc:mysql://106.75.218.170:12448/wms?characterEncoding=UTF-8&useUnicode=true&useSSL=false&tinyInt1isBit=false&allowPublicKeyRetrieval=true&serverTimezone=Asia/Shanghai"
+                        connectionURL=""
                         userId="wms"
                         password="smW#13Jun0533">
         </jdbcConnection>
