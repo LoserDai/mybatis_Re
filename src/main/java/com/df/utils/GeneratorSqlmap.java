@@ -21,7 +21,7 @@ public class GeneratorSqlmap {
         boolean overwrite = true;
 
         //根据项目文件的路径更改
-        File configFile = new File("D:\\Code\\Mybatis_Re\\src\\main\\resources\\generatorConfig.xml");
+        File configFile = new File("F:\\code\\mybatis_Re\\src\\main\\resources\\generatorConfig.xml");
         ConfigurationParser cp = new ConfigurationParser(warnings);
         Configuration config = cp.parseConfiguration(configFile);
         DefaultShellCallback callback = new DefaultShellCallback(overwrite);
